@@ -1,0 +1,15 @@
+main   : 主程序,最先运行
+Tlike_trace                    : T型速度曲线轨迹规划函数
+invKinetics3                  : 逆动力学模型
+kinetics                         : 正动力学模型
+plotTrace                      : 绘制轨迹规划结果
+play                              : 用于调试
+run                               : 展示控制结果的动画
+simulation                    : simulink仿真工程
+calcE                             : 计算累计误差
+
+运行顺序：
+
+运行 main  （运行结束后不要关闭窗口）-> 打开simulation ，点击仿真
+
+->  运行run   -> 运行calcE
